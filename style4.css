@@ -1,0 +1,180 @@
+body {    
+    background-color: #333;
+ } 
+ .navbar{
+    position: fixed;
+    padding-right: 0;
+    margin-bottom: 50px;
+    z-index:1;
+    width: 100%;
+    top: 0;
+}
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.li {
+    float: left;
+}
+.li:hover{
+    background-color:  rgb(155, 19, 19);
+    padding:10px 20px;
+    transition: 600ms;
+}
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.galerija { 
+    display: flex; 
+    position: sticky;   
+    margin: auto;
+    justify-content: center;    
+    align-items: center;    
+    flex-direction: column;     
+    margin-top: 1%;    
+    width: 85%;    
+    height: 100%;    
+    background-color: rgb(155, 19, 19);    
+    overflow: hidden; 
+}
+.naslov {    
+    display: flex;    
+    justify-content: center;    
+    color: white; 
+    margin-top: 2%;
+    font-size: 30px;
+}
+
+.slike1{
+    display: flex;    
+    justify-content: center;    
+    align-items: center;    
+    margin-top: 2%; 
+}
+.slika1 {   
+    width: 270px;   
+    height: 170px;   
+    padding: 1%;
+    border-radius: 4px; 
+    background-color: #33333334;
+    border: 3px solid #333;
+    margin-left:20px;
+    margin-right:20px;
+}
+.slika1:hover{
+    width: 290px;
+    height: 190px;
+    transition: 600ms;
+}
+.glavnaslika{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.slike2{
+    display: block;    
+    justify-content: center;    
+    align-items: center;    
+    margin-top: 4%;    
+    height: 100%;  
+    padding-top: 8px;
+}
+.slika2{
+    width: 270px;   
+    height: 210px;     
+    padding: 2.5%;
+    border-radius: 4px; 
+    background-color: #33333334;
+    border: 3px solid #333;
+    float: center;
+    margin-bottom: 20px;
+}
+.slika2:hover{
+    width: 290px;
+    height: 230px;
+    transition: 600ms;
+}
+#glavna {  
+    margin-top: 10px;  
+    width: 640px;    
+    height: 480px;
+    border-radius: 7px; 
+    padding: 5px;
+} 
+.slike3{
+    display: block;    
+    justify-content: center;    
+    align-items: center;    
+    margin-top: 4%;    
+    height: 100%;  
+    padding-top: 8px;
+}
+.slika3{
+    width: 270px;   
+    height: 210px;     
+    padding: 2.5%;
+    border-radius: 4px; 
+    background-color: #33333334;
+    border: 3px solid #333;
+    float: center;
+    margin-bottom: 20px;
+}
+.slika3:hover{
+    width: 290px;
+    height: 230px;
+    transition: 600ms;
+}
+
+
+.tekst {   
+    display: flex;    
+    justify-content: center;    
+    color: white;
+    font-size: 25px;
+    margin: auto;
+    text-align:justify;
+    float: center;
+    width: 750px;
+    margin-bottom: 10px;
+}
+
+ul#menu li {
+    display:inline;
+    margin-right: 20px;
+  }
+
+.futer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #333;
+    align-items: center;
+}
+.tekst123{
+    float: left;
+    margin-left: 10px;
+}
+.fuuter{
+    color: white;
+    border: none;
+    background-color: #333;
+}
+.slika123{
+    float: right;
+    width: 4%;
+    height: auto;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+.logo{
+    max-width: 100%;
+}

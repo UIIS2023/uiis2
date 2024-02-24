@@ -1,0 +1,202 @@
+body{
+  background-color: #333;
+}
+.sve{
+  background-color: rgb(36, 33, 33);
+  padding-top: 10px;
+  border-radius: 20px;
+}
+
+
+.navbar{
+  position: fixed;
+  padding-right: 0;
+  margin-bottom: 20px;
+  z-index:1;
+  width: 100%;
+  top:0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li:hover{
+    background-color:  rgb(155, 19, 19);
+    padding:10px 20px;
+    transition: 600ms;
+}
+li:hover .navbar{
+    padding-top: 202px;
+}
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+
+pre{
+  border: 2px solid rgb(155, 19, 19);
+  background-color:rgb(155, 19, 19);
+  color: black;
+  font-size: 14px;
+}
+.tekst{
+  display: inline;
+  margin: auto;
+  text-align: center;
+  float: center;
+}
+.podtekst{
+  border: none;
+  background: none;
+  color: white;
+  font-size: 15px;
+}
+.paragrafi{
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  align-items: center;
+  justify-content: center;
+}
+.paragraf1{
+  margin-right: 6%;
+  text-align: center;
+  display: inline;
+  
+}
+h4{
+  border: 2px solid rgb(155, 19, 19);
+  background-color:rgb(155, 19, 19);
+
+}
+.paragraf2{
+  text-align: center;
+  margin-left: 6%;
+  display: inline;
+  
+}
+
+
+.mapouter {
+    position: relative;
+    height: 240px;
+    width: 490px;
+    background: #fff;
+    margin: auto;
+    z-index: 0;
+    border-radius: 15px;
+}
+.maprouter a {
+    color: #fff !important;
+    position: relative !important;
+    top: 0 !important;
+    z-index: 0 !important;
+}
+.gmap_canvas {
+  overflow: hidden;
+  height: 240px;
+  width: 490px;
+  border-radius: 15px;
+  border: 3px solid rgb(155, 19, 19);
+}
+.gmap_canvas iframe {
+  position: relative;
+  z-index: 2;
+}
+.mapouter1{position:relative; height:240px; width:490px; background:#fff; border-radius: 15px;} 
+.maprouter1 a{color:#fff !important; position:absolute !important; top:0 !important; z-index:0 !important;}
+.gmap_canvas1{overflow:hidden; height:240px; width:490px;  border-radius: 15px; border: 3px solid rgb(155, 19, 19);}
+.gmap_canvas1 iframe{position:relative; z-index:2}
+
+
+form{
+  border: 3px solid rgb(155, 19, 19);
+  background-color: rgba(197, 65, 65, 0.764);
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+  position: relative;
+  z-index:0;
+  color: white;
+  text-align: center;
+}
+.labela{
+  display:inline-block;
+  width: 50%;
+  padding:5px;
+}
+.input{
+  border: 2px solid rgb(155, 19, 19);
+  border-radius: 5px;
+  width: 75%;
+  height: 22px;
+}
+.divic{
+  display: flex;
+  width: 100%;
+}
+fieldset{
+  margin: auto;
+  background-color:rgba(155, 19, 19, 0.826);
+}
+.f1{
+  margin-right: 30px;
+}
+.f2{
+  margin-left: 30px;
+}
+.button{
+  border: 2px solid rgb(155, 19, 19);
+  border-radius: 5px;
+  color:rgb(155, 19, 19);
+  font-weight: bold;
+  width: 100px;
+  height: 30px;
+}
+.button:hover{
+  background-color: rgb(155, 19, 19);
+  color: white;
+  border: 2px solid white;
+  width: 130px;
+  height: 35px;
+  transition: 600ms;
+}
+
+
+.futer{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #333;
+  align-items: center;
+}
+.logo{
+  max-width: 100%;
+}
+.fuuter{
+  color: white;
+  border: none;
+  background-color: #333;
+}
+.slika123{
+  float: right;
+  width: 4%;
+  height: auto;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+.tekst123{
+  float: left;
+  margin-left: 10px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/logo.png" />
+    <title>movies</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <div class="navbar">
+        <ul class="ul">
+            <li class="li"><a href="index.html">HOME</a></li>
+            <li class="li"><a href="movies.html">MOVIES</a></li>
+            <li class="li"><a href="shows.html">SHOWS</a></li>
+            <li class="li"><a href="game.html">GAME</a></li>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <div class="galerija">        
+        <h2 class="naslov">Top picks for you</h2>         
+        <div class="slike1">
+            <img src="images/fleabag.jpg" class="slika1" onclick="promeni(0)">            
+            <img src="images/suits.jpg"  class="slika1" onclick="promeni(1)">
+            <img src="images/sherlock.jpg"  class="slika1" onclick="promeni(6)">           
+            <img src="images/chernobyl.jpg" class="slika1" onclick="promeni(7)">
+        </div> 
+        <div class="glavnaslika">
+            <div class="slike2">
+                <img src="images/101.jpg"  class="slika2" onclick="promeni(2)">            
+                <img src="images/tlou.webp"  class="slika2" onclick="promeni(3)"> 
+            </div>
+            <img src="images/reccc.jpg"  id="glavna">
+
+            <div class="slike3">
+                <img src="images/knock.jpg"  class="slika3" onclick="promeni(4)">            
+                <img src="images/prison.jpg"  class="slika3" onclick="promeni(5)">   
+            </div> 
+        </div> 
+        <p class="tekst">Personal recommendations</p> 
+        <br>
+        <ul id="menu" style="font-size: 20px; color:aliceblue;">
+            <li> If you want more:</li>
+            <li> 1. House of the dragon</li> 
+            <li> 2. The protector</li>
+            <li> 3. Normal people</li>
+            <li> 4. Shadowhunters</li>
+        </ul>            
+    </div>
+    <div class="futer">
+        <div class="tekst123">
+<pre class="fuuter">We have all rights
+@ Diana Markovic IT19 & Nadja Anicic IT17</pre>
+        </div>
+        <div class="slika123"> 
+            <img class="logo" src="images/logo.png">
+        </div>
+    </div>
+    <script src="galery.js"></script>
+</body>
+</html>

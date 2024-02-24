@@ -1,0 +1,132 @@
+.navbar{
+    position: fixed;
+    padding-right: 0;
+    margin-bottom: 20px;
+    z-index:1;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  li {
+    float: left;
+  }
+  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  a:hover{
+    background-color: rgb(155, 19, 19);
+  }
+
+  body {
+	background-color:  #232323;
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
+}
+
+  p{
+    font-size: 10px;
+  }
+  
+.square {
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15%;
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+}
+
+#container {
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+h1 {
+	text-align: center;
+	line-height: 1.1;
+	font-weight: normal;
+	color: white;
+	background: steelblue;
+	margin: 0; 
+	text-transform: uppercase;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#colorDisplay {
+	font-size: 200%;
+}
+
+#stripe {
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+.selected {
+	color: white;
+	background: steelblue;
+}
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	outline: none;
+}
+#message {
+	display: inline-block;
+	width: 20%;
+}
+button:hover {
+	color: white;
+	background: steelblue;
+}
+
+
+.slika123{
+	float: right;
+	width: 4%;
+	height: auto;
+	margin-right: 10px;
+	margin-top: 3px;
+  }
+  .tekst123{
+	float: left;
+	margin-left: 10px;
+  }
+  .futer{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	background-color: #333;
+	align-items: center;
+  }
+  .logo{
+	max-width: 100%;
+  }
+  .fuuter{
+	color: white;
+	border: none;
+	background-color: #333;
+  }
